@@ -1,6 +1,6 @@
 # BME5014 – Deep Learning for Biomedical Engineers
 
-Course materials, recitation notebooks, and assignments for **BME5014**, adapted in part from CMU's [11-785 Introduction to Deep Learning](https://github.com/CMU-IDeeL/CMU-IDeeL.github.io) recitation series, retargeted for a biomedical engineering audience.
+Course materials, recitation notebooks, and assignments for **BME5014**, built around examples and exercises relevant to biomedical engineering (vitals monitoring, dosage calculations, medical imaging, physiological signals).
 
 ## Structure
 
