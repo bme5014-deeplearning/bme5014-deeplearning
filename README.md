@@ -10,7 +10,9 @@ Materials are organized by semester:
 F26/                        <- Fall 2026
 └── recitation_0/
     ├── Rec-0.1_Python_Fundamentals_BME5014.ipynb
-    └── Rec-0.1_Python_QuickCheck_BME5014.ipynb
+    ├── Rec-0.1_Python_QuickCheck_BME5014.ipynb
+    ├── Rec-0.2_OOP_Fundamentals_BME5014.ipynb
+    └── Rec-0.2_OOP_QuickCheck_BME5014.ipynb
 ```
 
 Each notebook has an **Open in Colab** badge at the top — click it to open and run the notebook directly in Google Colab, no local setup required.
@@ -21,3 +23,10 @@ An introduction/refresher on Python fundamentals (variables, control flow, funct
 
 - **Fundamentals** notebook: walkthrough + explanations, run every cell yourself.
 - **Quick Check** notebook: auto-graded practice exercises (`assert`-based) to self-test the same concepts.
+
+## Recitation 0.2: Object-Oriented Programming (OOP)
+
+Classes, objects, inheritance, polymorphism, and dunder methods, explained with biomedical examples (infusion pumps, biosignal recordings, signal arithmetic). The final section shows why this matters for deep learning: PyTorch models (`nn.Module`) and datasets (`Dataset`, `DataLoader`) are ordinary Python classes built on exactly these concepts.
+
+- **Fundamentals** notebook: step-by-step walkthrough, from the basics to a runnable PyTorch model and ECG `Dataset`.
+- **Quick Check** notebook: eight auto-graded exercises (`assert`-based) covering classes, encapsulation, inheritance, polymorphism, dunder methods, class attributes, the `Dataset` pattern, and callable objects.
