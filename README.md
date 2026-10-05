@@ -13,7 +13,8 @@ F26/                        <- Fall 2026
     ├── Rec-0.1_Python_QuickCheck_BME5014.ipynb
     ├── Rec-0.2_OOP_Fundamentals_BME5014.ipynb
     ├── Rec-0.2_OOP_QuickCheck_BME5014.ipynb
-    └── Rec-0.3_NumPy_Fundamentals_BME5014.ipynb
+    ├── Rec-0.3_NumPy_Fundamentals_BME5014.ipynb
+    └── Rec-0.3_NumPy_QuickCheck_BME5014.ipynb
 ```
 
 Each notebook has an **Open in Colab** badge at the top — click it to open and run the notebook directly in Google Colab, no local setup required.
@@ -37,3 +38,4 @@ Classes, objects, inheritance, polymorphism, and dunder methods, explained with 
 Arrays, shapes, data types, indexing and slicing (views vs copies), boolean masking, `np.where`, axis-based aggregations, broadcasting, reshaping, and the different kinds of products, using biomedical data (ECG-like signals, grayscale image patches, vital signs, multichannel recordings). Includes a MATLAB-to-NumPy cheat sheet and a closing example that preprocesses a noisy multichannel recording.
 
 - **Fundamentals** notebook: walkthrough with short "Your turn" prompts. Everything here carries over almost unchanged to PyTorch tensors.
+- **Quick Check** notebook: twelve auto-graded exercises (`assert`-based), from creating arrays to a small signal-preprocessing challenge.
