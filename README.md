@@ -12,7 +12,8 @@ F26/                        <- Fall 2026
     ├── Rec-0.1_Python_Fundamentals_BME5014.ipynb
     ├── Rec-0.1_Python_QuickCheck_BME5014.ipynb
     ├── Rec-0.2_OOP_Fundamentals_BME5014.ipynb
-    └── Rec-0.2_OOP_QuickCheck_BME5014.ipynb
+    ├── Rec-0.2_OOP_QuickCheck_BME5014.ipynb
+    └── Rec-0.3_NumPy_Fundamentals_BME5014.ipynb
 ```
 
 Each notebook has an **Open in Colab** badge at the top — click it to open and run the notebook directly in Google Colab, no local setup required.
@@ -30,3 +31,9 @@ Classes, objects, inheritance, polymorphism, and dunder methods, explained with 
 
 - **Fundamentals** notebook: step-by-step walkthrough, from the basics to a runnable PyTorch model and ECG `Dataset`.
 - **Quick Check** notebook: eight auto-graded exercises (`assert`-based) covering classes, encapsulation, inheritance, polymorphism, dunder methods, class attributes, the `Dataset` pattern, and callable objects.
+
+## Recitation 0.3: NumPy Fundamentals
+
+Arrays, shapes, data types, indexing and slicing (views vs copies), boolean masking, `np.where`, axis-based aggregations, broadcasting, reshaping, and the different kinds of products, using biomedical data (ECG-like signals, grayscale image patches, vital signs, multichannel recordings). Includes a MATLAB-to-NumPy cheat sheet and a closing example that preprocesses a noisy multichannel recording.
+
+- **Fundamentals** notebook: walkthrough with short "Your turn" prompts. Everything here carries over almost unchanged to PyTorch tensors.
